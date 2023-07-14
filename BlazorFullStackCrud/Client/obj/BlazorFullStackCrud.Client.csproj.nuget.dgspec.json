@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Client\\BlazorFullStackCrud.Client.csproj": {}
+  },
+  "projects": {
+    "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Client\\BlazorFullStackCrud.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Client\\BlazorFullStackCrud.Client.csproj",
+        "projectName": "BlazorFullStackCrud.Client",
+        "projectPath": "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Client\\BlazorFullStackCrud.Client.csproj",
+        "packagesPath": "C:\\Users\\wjddm\\.nuget\\packages\\",
+        "outputPath": "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wjddm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Shared\\BlazorFullStackCrud.Shared.csproj": {
+                "projectPath": "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Shared\\BlazorFullStackCrud.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.8, 7.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Shared\\BlazorFullStackCrud.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Shared\\BlazorFullStackCrud.Shared.csproj",
+        "projectName": "BlazorFullStackCrud.Shared",
+        "projectPath": "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Shared\\BlazorFullStackCrud.Shared.csproj",
+        "packagesPath": "C:\\Users\\wjddm\\.nuget\\packages\\",
+        "outputPath": "D:\\study\\BlazorWithEFInNetSix\\BlazorFullStackCrud\\BlazorFullStackCrud\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wjddm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
